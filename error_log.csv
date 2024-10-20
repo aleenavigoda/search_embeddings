@@ -1,0 +1,32 @@
+Error Code,URL,Error Message
+1,https://paulgraham.com/kids.html,'utf-8' codec can't decode byte 0x97 in position 3923: invalid start byte
+2,https://paulgraham.com/orth.html,'utf-8' codec can't decode byte 0x97 in position 2528: invalid start byte
+3,https://paulgraham.com/conformism.html,'utf-8' codec can't decode byte 0x97 in position 7846: invalid start byte
+4,https://paulgraham.com/say.html,'utf-8' codec can't decode byte 0x97 in position 3703: invalid start byte
+5,https://paulgraham.com/makersschedule.html,'utf-8' codec can't decode byte 0x96 in position 2824: invalid start byte
+6,https://paulgraham.com/worked.html,'utf-8' codec can't decode byte 0x97 in position 2925: invalid start byte
+7,https://paulgraham.com/ace.html,'utf-8' codec can't decode byte 0x97 in position 2595: invalid start byte
+8,https://paulgraham.com/lesson.html,'utf-8' codec can't decode byte 0x97 in position 7446: invalid start byte
+9,https://paulgraham.com/users.html,'utf-8' codec can't decode byte 0xf6 in position 11870: invalid start byte
+10,https://paulgraham.com/mod.html,'utf-8' codec can't decode byte 0x97 in position 5191: invalid start byte
+11,https://paulgraham.com/hw.html,'utf-8' codec can't decode byte 0x93 in position 5971: invalid start byte
+12,https://paulgraham.com/trolls.html,'utf-8' codec can't decode byte 0x97 in position 2361: invalid start byte
+13,https://paulgraham.com/ycstart.html,'utf-8' codec can't decode byte 0x97 in position 2848: invalid start byte
+14,https://paulgraham.com/earnest.html,'utf-8' codec can't decode byte 0x97 in position 4082: invalid start byte
+15,https://paulgraham.com/genius.html,'utf-8' codec can't decode byte 0xe9 in position 15942: invalid continuation byte
+16,https://paulgraham.com/ineq.html,'utf-8' codec can't decode byte 0xe9 in position 26970: invalid continuation byte
+17,https://paulgraham.com/nft.html,'utf-8' codec can't decode byte 0x92 in position 3110: invalid start byte
+18,https://paulgraham.com/rootsoflisp.html,'utf-8' codec can't decode byte 0x97 in position 2734: invalid start byte
+19,https://paulgraham.com/startupideas.html,'utf-8' codec can't decode byte 0xe9 in position 37857: invalid continuation byte
+20,https://paulgraham.com/fp.html,'utf-8' codec can't decode byte 0x97 in position 2833: invalid start byte
+21,https://paulgraham.com/top.html,'utf-8' codec can't decode byte 0x97 in position 5398: invalid start byte
+22,https://paulgraham.com/early.html,'utf-8' codec can't decode byte 0x97 in position 3914: invalid start byte
+1,https://studio.ribbonfarm.com/p/a-most-useful-misunderstanding,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/a-most-useful-misunderstanding (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+1,https://studio.ribbonfarm.com/p/state-of-the-studio-2023,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/state-of-the-studio-2023 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+2,https://studio.ribbonfarm.com/p/thinking-out-loud-year-one,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/thinking-out-loud-year-one (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+3,https://studio.ribbonfarm.com/p/courage-in-computing,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/courage-in-computing (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+4,https://studio.ribbonfarm.com/p/a-camera-not-an-engine,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/a-camera-not-an-engine (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+5,https://studio.ribbonfarm.com/p/sweating-solarpunk,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/sweating-solarpunk (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+6,https://studio.ribbonfarm.com/p/bangalore-diary,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/bangalore-diary (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+7,https://studio.ribbonfarm.com/p/glued-time-forked-time,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/glued-time-forked-time (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
+8,https://studio.ribbonfarm.com/p/bullshitization-and-common-indifference,"HTTPSConnectionPool(host='studio.ribbonfarm.com', port=443): Max retries exceeded with url: /p/bullshitization-and-common-indifference (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1020)')))"
