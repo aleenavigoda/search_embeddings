@@ -4,10 +4,13 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.model_selection import train_test_split
 from supabase import create_client, Client
 import os
+from dotenv import load_dotenv
 
-# Supabase setup
-SUPABASE_URL = "https://hyxoojvfuuvjcukjohyi.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh5eG9vanZmdXV2amN1a2pvaHlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgzMTU4ODMsImV4cCI6MjA0Mzg5MTg4M30.eBQ3JLM9ddCmPeVq_cMIE4qmm9hqr_HaSwR88wDK8w0"
+load_dotenv()
+
+url = os.getenv('SUPABASE_URL')
+key = os.getenv('SUPABASE_KEY')
+
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Fetch data from Supabase

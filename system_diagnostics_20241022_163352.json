@@ -1,0 +1,39 @@
+{
+    "system": {
+        "os": "Darwin",
+        "os_version": "Darwin Kernel Version 23.3.0: Wed Dec 20 21:31:10 PST 2023; root:xnu-10002.81.5~7/RELEASE_ARM64_T6031",
+        "machine": "arm64",
+        "processor": "arm"
+    },
+    "mac_info": {
+        "chip_type": "Apple M3 Max",
+        "model": "hw.model: Mac15,11"
+    },
+    "memory": {
+        "total_memory_gb": 36.0,
+        "available_memory_gb": 7.13,
+        "used_memory_gb": 10.68,
+        "memory_percent": 80.2,
+        "swap_total_gb": 2.0,
+        "swap_used_gb": 1.59
+    },
+    "cpu": {
+        "physical_cores": 14,
+        "total_cores": 14,
+        "current_frequency": 4056,
+        "min_frequency": 1020,
+        "max_frequency": 4056
+    },
+    "disk": {
+        "total_disk_gb": 926.35,
+        "free_disk_gb": 767.81,
+        "used_disk_gb": 13.42,
+        "disk_percent": 1.7
+    },
+    "safe_parameters": {
+        "max_workers": 8,
+        "max_memory_usage_gb": 14.4,
+        "safe_batch_size": 3600,
+        "recommended_target_dataset_size_gb": 10
+    }
+}

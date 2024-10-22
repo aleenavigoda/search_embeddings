@@ -1,3 +1,4 @@
 .env
-/venv
-/source_scraping
+venv/
+wandb/
+model_outputs/
