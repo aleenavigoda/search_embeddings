@@ -125,7 +125,7 @@ def main():
     )
 
     # Initialize classifier
-    model_path = 'model_outputs/best_model_20241022_181613'  # Update with your model path
+    model_path = 'fine_tuned_bert'  # Update with your model path
     classifier = URLTextClassifier(model_path)
 
     # Fetch texts

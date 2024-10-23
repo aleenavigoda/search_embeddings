@@ -1,0 +1,11 @@
+python-gotrue
+python-realtime
+supabase-py==2.3.9
+pandas
+numpy
+nltk
+torch
+transformers
+scikit-learn
+tqdm
+python-dotenv

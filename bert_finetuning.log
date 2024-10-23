@@ -1,0 +1,77 @@
+2024-10-23 13:26:25,871 - INFO - Fetching original data from Supabase...
+2024-10-23 13:26:27,339 - INFO - HTTP Request: GET https://hyxoojvfuuvjcukjohyi.supabase.co/rest/v1/genre_assignments?select=full_text%2Cgenre_id "HTTP/2 200 OK"
+2024-10-23 13:26:28,499 - INFO - Loaded 107 original data points from Supabase.
+2024-10-23 13:26:28,500 - INFO - Loading generated data from CSV: generated_data/generated_dataset_20241023_131209.csv
+2024-10-23 13:26:29,073 - INFO - Loaded 5047 generated data points from CSV.
+2024-10-23 13:26:29,073 - INFO - Total data points for training: 5154
+2024-10-23 13:26:29,073 - INFO - Loading BERT model and tokenizer...
+2024-10-23 13:26:30,214 - INFO - Tokenizing the texts...
+2024-10-23 13:26:54,468 - INFO - Fetching original data from Supabase...
+2024-10-23 13:26:56,730 - INFO - HTTP Request: GET https://hyxoojvfuuvjcukjohyi.supabase.co/rest/v1/genre_assignments?select=full_text%2Cgenre_id "HTTP/2 200 OK"
+2024-10-23 13:26:57,918 - INFO - Loaded 107 original data points from Supabase.
+2024-10-23 13:26:57,919 - INFO - Loading generated data from CSV: generated_data/generated_dataset_20241023_131209.csv
+2024-10-23 13:26:58,492 - INFO - Loaded 5047 generated data points from CSV.
+2024-10-23 13:26:58,492 - INFO - Total data points for training: 5154
+2024-10-23 13:26:58,492 - INFO - Loading BERT model and tokenizer...
+2024-10-23 13:26:59,811 - INFO - Tokenizing the texts...
+2024-10-23 13:28:31,659 - INFO - Splitting data into training and validation sets...
+2024-10-23 13:28:32,146 - INFO - Starting training for 2 epochs on mps...
+2024-10-23 13:28:32,146 - INFO - Epoch 1/2
+2024-10-23 13:28:48,814 - INFO -   Step 10/258 - Loss: 1.5915
+2024-10-23 13:28:59,718 - INFO -   Step 20/258 - Loss: 1.5534
+2024-10-23 13:29:10,636 - INFO -   Step 30/258 - Loss: 1.4851
+2024-10-23 13:29:21,514 - INFO -   Step 40/258 - Loss: 1.3096
+2024-10-23 13:39:33,249 - INFO -   Step 50/258 - Loss: 1.3151
+2024-10-23 13:39:43,992 - INFO -   Step 60/258 - Loss: 1.1960
+2024-10-23 13:49:59,848 - INFO -   Step 70/258 - Loss: 1.1963
+2024-10-23 13:50:10,748 - INFO -   Step 80/258 - Loss: 1.0405
+2024-10-23 13:50:21,608 - INFO -   Step 90/258 - Loss: 0.9248
+2024-10-23 13:50:32,438 - INFO -   Step 100/258 - Loss: 0.7465
+2024-10-23 13:50:43,340 - INFO -   Step 110/258 - Loss: 0.7117
+2024-10-23 13:50:54,193 - INFO -   Step 120/258 - Loss: 0.5795
+2024-10-23 13:51:05,137 - INFO -   Step 130/258 - Loss: 0.6094
+2024-10-23 13:51:16,152 - INFO -   Step 140/258 - Loss: 0.4390
+2024-10-23 13:51:27,133 - INFO -   Step 150/258 - Loss: 0.2244
+2024-10-23 13:51:38,176 - INFO -   Step 160/258 - Loss: 0.2161
+2024-10-23 13:51:49,200 - INFO -   Step 170/258 - Loss: 0.2539
+2024-10-23 13:52:00,162 - INFO -   Step 180/258 - Loss: 0.2723
+2024-10-23 13:52:11,221 - INFO -   Step 190/258 - Loss: 0.2240
+2024-10-23 13:54:07,453 - INFO -   Step 200/258 - Loss: 0.1003
+2024-10-23 13:54:18,303 - INFO -   Step 210/258 - Loss: 0.1861
+2024-10-23 13:54:29,146 - INFO -   Step 220/258 - Loss: 0.1274
+2024-10-23 13:54:39,999 - INFO -   Step 230/258 - Loss: 0.1547
+2024-10-23 13:54:50,949 - INFO -   Step 240/258 - Loss: 0.0624
+2024-10-23 13:55:01,923 - INFO -   Step 250/258 - Loss: 0.0782
+2024-10-23 13:55:10,199 - INFO - Average Training Loss for Epoch 1: 0.7080
+2024-10-23 13:55:37,900 - INFO - Validation Loss for Epoch 1: 0.1433
+
+2024-10-23 13:55:37,900 - INFO - Epoch 2/2
+2024-10-23 13:55:59,614 - INFO -   Step 10/258 - Loss: 0.0603
+2024-10-23 13:56:31,970 - INFO -   Step 20/258 - Loss: 0.0579
+2024-10-23 13:57:07,734 - INFO -   Step 30/258 - Loss: 0.2304
+2024-10-23 13:57:30,894 - INFO -   Step 40/258 - Loss: 0.0361
+2024-10-23 13:57:49,134 - INFO -   Step 50/258 - Loss: 0.0524
+2024-10-23 13:58:05,832 - INFO -   Step 60/258 - Loss: 0.0659
+2024-10-23 13:58:22,014 - INFO -   Step 70/258 - Loss: 0.0457
+2024-10-23 13:58:39,069 - INFO -   Step 80/258 - Loss: 0.0373
+2024-10-23 13:58:55,735 - INFO -   Step 90/258 - Loss: 0.0309
+2024-10-23 13:59:10,088 - INFO -   Step 100/258 - Loss: 0.0405
+2024-10-23 13:59:24,194 - INFO -   Step 110/258 - Loss: 0.3019
+2024-10-23 13:59:38,147 - INFO -   Step 120/258 - Loss: 0.0222
+2024-10-23 13:59:52,043 - INFO -   Step 130/258 - Loss: 0.0222
+2024-10-23 14:00:05,927 - INFO -   Step 140/258 - Loss: 0.0302
+2024-10-23 14:00:19,864 - INFO -   Step 150/258 - Loss: 0.0449
+2024-10-23 14:00:35,365 - INFO -   Step 160/258 - Loss: 0.0818
+2024-10-23 14:00:49,954 - INFO -   Step 170/258 - Loss: 0.3355
+2024-10-23 14:01:04,281 - INFO -   Step 180/258 - Loss: 0.1384
+2024-10-23 14:01:18,601 - INFO -   Step 190/258 - Loss: 0.0483
+2024-10-23 14:01:32,869 - INFO -   Step 200/258 - Loss: 0.0277
+2024-10-23 14:01:47,183 - INFO -   Step 210/258 - Loss: 0.0463
+2024-10-23 14:02:01,968 - INFO -   Step 220/258 - Loss: 0.0418
+2024-10-23 14:02:15,846 - INFO -   Step 230/258 - Loss: 0.0574
+2024-10-23 14:02:29,750 - INFO -   Step 240/258 - Loss: 0.0389
+2024-10-23 14:02:43,721 - INFO -   Step 250/258 - Loss: 0.0302
+2024-10-23 14:02:53,231 - INFO - Average Training Loss for Epoch 2: 0.1207
+2024-10-23 14:03:23,860 - INFO - Validation Loss for Epoch 2: 0.1063
+
+2024-10-23 14:03:24,637 - INFO - Model saved to ./fine_tuned_bert

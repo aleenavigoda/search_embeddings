@@ -2,3 +2,5 @@
 venv/
 wandb/
 model_outputs/
+fine_tuned_bert/
+generated_data/

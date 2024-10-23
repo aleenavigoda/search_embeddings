@@ -1,0 +1,33 @@
+2024-10-23 13:04:03,786 - INFO - Fetching data from Supabase...
+2024-10-23 13:04:05,834 - INFO - HTTP Request: GET https://hyxoojvfuuvjcukjohyi.supabase.co/rest/v1/genre_assignments?select=%2A "HTTP/2 200 OK"
+2024-10-23 13:04:07,313 - INFO - Found 107 original texts
+2024-10-23 13:04:08,322 - INFO - 
+Original data distribution:
+2024-10-23 13:04:08,322 - INFO - Genre 0: 21 texts
+2024-10-23 13:04:08,322 - INFO - Genre 1: 21 texts
+2024-10-23 13:04:08,322 - INFO - Genre 2: 21 texts
+2024-10-23 13:04:08,322 - INFO - Genre 3: 23 texts
+2024-10-23 13:04:08,322 - INFO - Genre 4: 21 texts
+2024-10-23 13:04:08,343 - ERROR - Error during execution: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/Users/manishkhakhal/nltk_data'
+    - '/Users/manishkhakhal/Manish/Workspace/search_embeddings/venv/nltk_data'
+    - '/Users/manishkhakhal/Manish/Workspace/search_embeddings/venv/share/nltk_data'
+    - '/Users/manishkhakhal/Manish/Workspace/search_embeddings/venv/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
